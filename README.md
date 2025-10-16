@@ -75,7 +75,7 @@ MaxSalary = MAX(staff[Salary])
 ## Usage
 
 - Clone or download this repository
-- Open the `.pbix` file with Power BI Desktop
+- Open the live dashboard and download the file with Power BI Desktop
 - Load or connect the sample data
 - Explore interactive visuals and DAX measures
 - Modify or extend as required

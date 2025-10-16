@@ -29,7 +29,7 @@ This project demonstrates end-to-end HR data analysis using Power BI, including:
 
 ## Dashboard Snapshots
 
-![HR Dashboard Screenshot](dashboard.jpg)
+![HR Dashboard Screenshot](dashboard.png)
 
 ## Dataset
 

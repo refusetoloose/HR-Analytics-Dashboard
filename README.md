@@ -29,7 +29,7 @@ This project demonstrates end-to-end HR data analysis using Power BI, including:
 
 ## Dashboard Snapshots
 
-*Add screenshots exported from Power BI here.*
+![HR Dashboard Screenshot](dashboard.jpg)
 
 ## Dataset
 
@@ -49,21 +49,26 @@ Typical fields:
 ## Key DAX Formulas
 
 - **Headcount**
+  
 Headcount = COUNTROWS(staff)
 
 - **Average Salary**
+  
 AvgSalary = AVERAGE(staff[Salary])
 
 - **Cumulative Headcount**
+  
 CumulativeHeadcount = CALCULATE(
 [Headcount],
 FILTER(ALL(staff[Date of Join]), staff[Date of Join] <= MAX(staff[Date of Join]))
 )
 
 - **Leave Balance Over 20 Days**
+  
 LBLover20days = CALCULATE([Headcount], staff[Leave Balance] > 20)
 
 - **Minimum and Maximum Salary by Job Title**
+  
 MinSalary = MIN(staff[Salary])
 MaxSalary = MAX(staff[Salary])
 
